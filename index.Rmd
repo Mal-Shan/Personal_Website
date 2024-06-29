@@ -1,5 +1,6 @@
 ---
-title: "My Website"
+title: "Mridula (Mally) Shan"
+output: html_document
 ---
 
 Hello, Website!

@@ -6,3 +6,9 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Practice Page"
+      href: practice.html
+output:
+  html_document:
+    theme: journal
+  
