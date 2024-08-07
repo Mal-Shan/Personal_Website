@@ -1,15 +1,18 @@
-name: "my-website"
+name: "."
+title: "mfeo"
+description: |
+  mfeo
 output_dir: "docs"
+theme: css/theme.css
 navbar:
-  title: "My Website"
-  left:
+  right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Practice Page"
-      href: practice.html
+    - text: "Tobi"
+      href: tobi.html
 output:
-  html_document:
-    theme: journal
-  
+  distill::distill_article:
+    css: [css/theme.css]
+    self_contained: false

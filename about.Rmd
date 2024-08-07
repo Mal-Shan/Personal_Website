@@ -1,6 +1,10 @@
 ---
-title: "About This Website"
-output: html_document
+title: "About this site"
+description: |
+  Some additional details about the website
 ---
 
-More about this website.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+

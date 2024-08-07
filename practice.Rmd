@@ -1,6 +1,0 @@
----
-title: "Testing a new page"
-output: html_document
----
-
-This is me adding a new page to the website! 
